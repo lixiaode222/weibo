@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6c4dd2cc-9bc5-4c33-99f2-c24f759fed0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,16 +30,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="2" />
-          <entry key="php" value="2746" />
+          <entry key="dummy" value="4" />
+          <entry key="php" value="3663" />
           <entry key="scss" value="403" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="1872" />
-          <entry key="PHP" value="874" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Blade" value="2299" />
+          <entry key="PHP" value="1364" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="SCSS" value="403" />
         </counts>
       </usages-collector>
@@ -50,17 +49,17 @@
           <entry key="env" value="1" />
           <entry key="js" value="1" />
           <entry key="json" value="2" />
-          <entry key="php" value="25" />
+          <entry key="php" value="29" />
           <entry key="scss" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="16" />
+          <entry key="Blade" value="17" />
           <entry key="CSS" value="1" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="9" />
+          <entry key="PHP" value="12" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="3" />
         </counts>
@@ -70,28 +69,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+            <state relative-caret-position="392">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#40#74#0#PHP" expanded="true" />
               </folding>
@@ -117,20 +98,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="342">
+              <caret line="27" column="69" lean-forward="true" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SessionsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/users/show.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/sessions/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+            <state relative-caret-position="475">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -140,15 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/shared/_errors.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -180,7 +173,6 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/shared/_user_info.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/User.php" />
         <option value="$PROJECT_DIR$/resources/views/users/show.blade.php" />
@@ -189,9 +181,14 @@
         <option value="$PROJECT_DIR$/resources/views/shared/_error.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/users/create.blade.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/resources/views/shared/_message.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SessionsContorller.php" />
+        <option value="$PROJECT_DIR$/resources/views/sessions/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/SessionRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" />
       </list>
     </option>
   </component>
@@ -305,8 +302,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="761" />
-    <option name="y" value="251" />
+    <option name="x" value="537" />
+    <option name="y" value="205" />
     <option name="width" value="1750" />
     <option name="height" value="942" />
   </component>
@@ -463,18 +460,18 @@
       <workItem from="1545636681373" duration="1501000" />
       <workItem from="1545638277822" duration="3959000" />
       <workItem from="1545658505584" duration="4683000" />
-      <workItem from="1545697895269" duration="5106000" />
+      <workItem from="1545697895269" duration="6964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15249000" />
+    <option name="totallyTimeSpent" value="17107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="609" y="201" width="1400" height="753" extended-state="0" />
+    <frame x="430" y="164" width="1400" height="753" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1845238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14508928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -577,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/shared/_user_info.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -647,16 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding>
-            <element signature="e#40#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/shared/_messages.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -667,7 +647,48 @@
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="69" lean-forward="true" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sessions/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/SessionRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#40#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SessionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
