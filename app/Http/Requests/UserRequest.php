@@ -23,10 +23,25 @@ class UserRequest extends FormRequest
      */
     public function rules()
     {
-        return [
-            'name' => 'required|max:50',
-            'email' => 'required|unique:users|max:255',
-            'password' => 'required|confirmed|min:6'
-        ];
+        switch ($this->method()){
+
+            case  'POST':{
+                return [
+                    'name' => 'required|max:50',
+                    'email' => 'required|unique:users|max:255',
+                    'password' => 'required|confirmed|min:6'
+                ];
+            }
+
+            case 'PATCH':
+            default:{
+            return [
+                'name' => 'required|max:50',
+                'password' => 'nullable|confirmed|min:6'
+            ];
+            }
+        }
+
+
     }
 }
