@@ -76,4 +76,12 @@ class UsersController extends Controller
         return view('users.index',compact('users'));
     }
 
+    //用户删除逻辑
+    public function destroy(User $user){
+        $this->authorize('destroy', $user);
+        $user->delete();
+        session()->flash('success','成功删除用户！');
+        return back();
+    }
 }
+
