@@ -15,7 +15,14 @@ class UsersController extends Controller
 
     //用户注册逻辑
     public function store(UserRequest $request){
-        return;
+        $user = User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => bcrypt($request->password),
+        ]);
+
+        session()->flash('success','欢迎，您将在这里开启一段新的旅程~');
+        return redirect()->route('users.show',[$user]);
     }
 
     //用户个人信息展示页面
