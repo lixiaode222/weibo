@@ -11,8 +11,13 @@
 |
 */
 
+//首页
 Route::get('/','StaticPagesController@home')->name('home');
+//帮助页
 Route::get('/help','StaticPagesController@help')->name('help');
+//关于页
 Route::get('/about','StaticPagesController@about')->name('about');
 
+//用于登陆页面
 Route::get('signup','UsersController@create')->name('signup');
+Route::resource('users', 'UsersController');
