@@ -12,7 +12,7 @@ class UsersController extends Controller
     //权限过滤
     public function __construct() {
         $this->middleware('auth',[
-            'except' => ['show','create','store']
+            'except' => ['show','create','store','index']
         ]);
 
         $this->middleware('guest',[
@@ -68,6 +68,12 @@ class UsersController extends Controller
     //用户个人信息展示页面
     public function show(User $user){
         return view('users.show',compact('user'));
+    }
+
+    //用户列表页面
+    public function index(){
+        $users = User::paginate(8);
+        return view('users.index',compact('users'));
     }
 
 }
