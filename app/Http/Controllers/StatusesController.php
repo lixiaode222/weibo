@@ -13,7 +13,8 @@ class StatusesController extends Controller
         $this->middleware('auth');
     }
 
-    public function store(StatusRequest $request){
+    public function store(StatusRequest $request) {
+
         Auth::user()->statuses()->create([
             'content' => $request['content'],
         ]);
@@ -21,7 +22,11 @@ class StatusesController extends Controller
         return redirect()->back();
     }
 
-    public function destroy(){
+    public function destroy(Status $status){
 
+        $this->authorize('destroy',$status);
+        $status->delete();
+        session()->flash('success','微博已被删除。');
+        return redirect()->back();
     }
 }
